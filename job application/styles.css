@@ -10,11 +10,65 @@ body{
     max-width: 900px;
     margin: 0 auto;
 }
-.box-size{
+.box-size{  
     max-width: 600px;
     padding: 20px;
     background-color: white;
     margin: 0 auto;
     margin-top: 50px;
     box-shadow: 4px 3px 6px rgba(2, 3,2, 1);
+    border-radius: 10px;
+}
+.disc-info{
+    font-size: 15px;
+}
+.form-container{
+    margin-top: 40px;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+ gap: 15px;
+} 
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.apply-button{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  ;
+
+}
+button{
+    background-color:white;
+    border-color:white;
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px rgba(2, 3,2, 1);  
+}
+.apply{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgb(33, 76, 94) 100%);
+}
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: red;
+}
+textarea:focus{
+    outline-color: red;
+}
+button:hover{
+    background-color: red;
 }

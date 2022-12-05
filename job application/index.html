@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Application form</title>
 </head>
 <body>
     <div class="container">
      <div class="box-size">
-        <h1>jobs form
-        <span class="disc-info">(freshers)</span>
+        <h1>Application Form
+        <span class="disc-info">(Freshers)</span>
     </h1>
     <form action="">
         <div class="form-container">
@@ -20,12 +20,53 @@
             <input id="fist-name" name="fist-name" placeholder="Enter your name..">
 
         </div>
-        </div>
-        <div class="form-container">
             <div class="form-control">
-                <lable for="fist-name">First name</lable>
-                <input id="fist-name" name="fist-name" placeholder="Enter your name..">
-    </form>
+                <lable for="Last-name">Last Name</lable>
+                <input id="Last-name" name="Last-name" placeholder="Enter your Last name..">
+    
+        </div>
+    <div class="form-control">
+        <lable for="Email">Enter Email</lable>
+        <input type="email" id="Email" name="Email" placeholder="Enter your Email Address..">
+
+</div>
+<div class="form-control">
+    <lable for="Last-name">Job Role</lable>
+   <select id="job-Role" name="job-Role">
+    <option value="">Select job Role</option>
+    <option value="Fullstack">Fullstack Developer</option>
+    <option value="Frontend">Frontend Developer</option>
+    <option value="backend">backend Developer</option>
+    <option value="React">React Developer</option>
+   </select>
+
+</div>
+<div class="form-control">
+    <lable for="address">Address</lable>
+    <textarea id="address" name="address" row="4" cols="50" placeholder="Enter your Address..">
+    </textarea>
+</div>
+<div class="form-control">
+    <lable for="City">City</lable>
+    <input type="City" id="City" name="City" placeholder="Enter your City..">
+    </div>
+    <div class="form-control">
+        <lable for="Pincode">Pincode</lable>
+        <input type="number" id="Pindcode" name="Pindcode" placeholder="Enter your Pincode..">
+    </div>
+    <div class="form-control">
+        <lable for="Date">Enter Date</lable>
+        <input value="2022-12-04" type="date" id="Date" name="Date">
+        </div>
+        <div class="form-control">
+            <lable for="Upload">Enter Upload</lable>
+            <input type="file" id="Upload" name="Upload" placeholder="Upload your file..">
+        </div>
+        </div>
+        <div class="apply-button">
+            <button class="apply">Apply here</button>
+        </div>
+  </form>
      </div>
     </div>
     
