@@ -9,6 +9,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .img2{
     background-image: url(/img2.jpg);
@@ -17,6 +18,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .img3{
     background-image: url(/img3.jpg);
@@ -25,6 +27,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .text1{
     position: absolute;
