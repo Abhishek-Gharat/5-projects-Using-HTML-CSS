@@ -1,56 +1,69 @@
 /* FIRST IMAGE AND TEXT Align */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html,body{
     height: 100%;
     margin: 0;
 }
 .img1{
     background-image: url(/image/img.jpg);
-    min-height: 100%;
+    min-height: 100VH;
     position:relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
-.text-bag1{
+.text1-container{
+  color: #FFFFFF;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-left: 16px;
+} .text-bag1{
 position: absolute;
 top: 30%;
 width: 100%;
 text-align: center;
 color: rgb(255, 255, 255);
-font-size: 72px;;
+font-size: 29px;;
 text-transform: uppercase;
-}
-h1{
-position: absolute;
-width: 336px;
-height: 84px;
-left: 313px;
-top: 53px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 84px;
-
-color: #FFFFFF;
-
-}
-.text-bag{
-position: absolute;
-width: 336px;
+} 
+/* .text-bag{
+position: absolute; */
+/* width: 336px;
 height: 84px;
 left: 413px;
 top: 133px;
-
-
 font-family: 'Roboto';
 font-style: normal;
-
 font-size: 22px;
 line-height: 84px;
-
 color: #FFFFFF;
-
 }
 /* create section */
+/* .section{
+    background-color: #161619;
+    padding: 10px;
+    text-align: center;
+    font-size: 29px;
+}
+.section-text1{
+  color: #FFFFFF;
+}
+
+/* Adding another image and text */
+
+/* .container1{
+  background-color: white;  
+  min-height: 400px;
+}
+.img4{
+    background-image: url(/image/img4.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+}
+.text1-container{
+
+}  */
