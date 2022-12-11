@@ -37,25 +37,27 @@ font-size: 29px;;
 text-transform: uppercase;
 }  */
 .text-bag{
-/* font-size: 72px; */
+font-size: 72px;
 font-weight: 400;
 }
-/* create section
-/* .section{
+/* create section*/
+.black-box{
     background-color: #161619;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
-    font-size: 29px;
+    font-size: 20px;
 }
-.section-text1{
-  color: #FFFFFF;
-}
-
 /* Adding another image and text */
-
-/* .container1{
-  background-color: white;  
-  min-height: 400px;
+.black-box h2{
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 60px; 
+  text-align: center;
+}
+.black-box h2 span{
+  color: #FFFFFF;
+  font-size: 80px; 
+  font-weight: 400;
 }
 .img4{
     background-image: url(/image/img4.jpg);
@@ -64,6 +66,39 @@ font-weight: 400;
     background-position: center;
     background-size:cover;
 }
-.text1-container{
+.white-box{
+  display: grid; 
+  margin-top: 20px;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card{
+    max-width: 320px;
+    border-radius: 40px ;
+    height: 400px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+  }
 
-}  */
+.image-resize{
+  left: 20%;
+  width: 320px;
+  height: 200px;
+ object-fit: cover;
+ object-position: center center;
+ border-radius: 40px ;
+}
+.grid-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover{
+  transform:scale(1.04);
+  box-shadow: 3px 5px 5px rgba(242, 107, 107, 0.84);
+  transition: 0.2s ease-in-out ;
+
+}
+.card-containt{
+  padding: 10px;
+}
