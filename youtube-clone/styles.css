@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-menu{
+    position:absolute;
+    width: 20px;
+    height: 809px;
+    left: 0;
+    top:0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+}
+.home {
+    
+    display: flex;
+    margin-left: 10px;
+    width: 12px;
+    font-size: 15px;
+    color: #000000;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.explore{
+    display: flex;
+    margin-left: 10px;
+    width: 12px;
+    font-size: 15px;
+    color: #000000;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.subscriptions{
+    font-size: 15px;
+    display: flex;
+    margin-left: 10px;
+    width: 12px;
+
+    color: #000000;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.library{
+    font-size: 15px;
+    display: flex;
+    margin-left: 10px;
+    width: 12px;
+    
+   
+    
+    color: #000000;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
