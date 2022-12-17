@@ -1,63 +1,95 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.right-menu{
-    position:absolute;
-    width: 20px;
-    height: 809px;
-    left: 0;
-    top:0;
-    background-color: aqua;
+nav{
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 40px;
-}
-.home {
-    
-    display: flex;
-    margin-left: 10px;
-    width: 12px;
-    font-size: 15px;
-    color: #000000;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
     
 }
-.explore{
+.logo img {
+    width: 140px;
+    height: auto;
+   
+}
+
+.center-nav{
     display: flex;
-    margin-left: 10px;
-    width: 12px;
-    font-size: 15px;
-    color: #000000;
-    justify-content: center;
-    flex-wrap: wrap;
 
 }
-.subscriptions{
-    font-size: 15px;
+
+.search-bar{
     display: flex;
-    margin-left: 10px;
-    width: 12px;
-
-    color: #000000;
-    justify-content: center;
-    flex-wrap: wrap;
-
 }
+.search-bar input{
+    min-width: 500px;
+    padding: 10px 20px;
+    border-radius: 1px solid rgb(223, 211, 211);
+}
+.search-bar button{
+    border:none;
+    padding: 10px 20px;
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.mic img{
+    width: 30px;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* }
 .library{
     font-size: 15px;
     display: flex;
     margin-left: 10px;
-    width: 12px;
-    
-   
-    
+    width: 12px; 
     color: #000000;
     justify-content: center;
     flex-wrap: wrap;
 
-}
+} */
+/* .search1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 50px;
+    bottom:40px ;
+    gap: 50px;
+    
+    
+} */
+/* .search-text{
+display: flex;
+ position:relative; */
+    /* top: 10px;
+    right: 5px;
+    flex-wrap: wrap; */
+    /* min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc; */
+/* }
+.second-bar{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+
+} */
+
 
 
