@@ -5,9 +5,11 @@
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
+    margin-top:-420px;
+    
     
 }
 .logo img {
@@ -53,6 +55,7 @@ nav{
 .tags{
     display: flex;
     padding: 10px 20px;
+    margin-left: 60px;
     gap: 15px;
     border-top: 1px solid white;
 }
@@ -68,4 +71,80 @@ nav{
 .light{
     background-color:#f3f2f2;
     color:black;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.container{
+    display: flex;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+} 
+.side-icons img{
+ width: 30px;
+ margin-top: 10px;
+}
+.side-icons p{
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.bars{
+    margin-top: 20px;
+}
+.main-container{
+    width: 100%;
+}
+main{
+    min-height:100vh;
+    background-color: rgb(151, 42, 42);
+    margin-left: 80px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card{
+    padding: 10px;
+    display: flex;
+    max-width: 320px;
+    flex-direction: column ;
+}
+.avtar{
+    padding-top: 10px ;
+    display: flex;
+    gap:5px;
+}
+.card h3{
+  font-size: 20px;  
+  margin-left: 30px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+    margin-top: -50px;
+   
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.containt-stat{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    margin-left: 30px;
+
 }
